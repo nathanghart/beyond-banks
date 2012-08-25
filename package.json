@@ -1,0 +1,30 @@
+{
+    "name": "Beyond-Banks",
+    "version": "1.0.0",
+    "description": "A rapid prototype for a bitcoin pledge system in Node.js & MongoDb",
+    "author": {
+        "name": "Nathan G Hart",
+        "email": "nathanghart@gmail.com"
+    },
+    "website":{
+        "url": "www.beyondbanks.org/site"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/nathanghart/beyond-banks.git"
+    },
+    "private": true,
+    "dependencies": {
+        "express": "2.5.8",
+        "stylus": ">= 0.0.1",
+        "jade": ">= 0.0.1",
+        "bcrypt": ">= 0.5.0",        
+        "mongodb": ">= 0.1.0",
+        "moment" : ">=1.6.2",        
+        "emailjs": ">= 0.2.9"         
+  },
+    "engines": {
+        "node": "0.6.17",
+        "npm":  "1.0.x"
+    }
+}
